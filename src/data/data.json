@@ -1,27 +1,28 @@
 {
     "Header": {
 
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+        "title": "Bem-vindo à Gifermo",
+        "paragraph": "A gifermo é especialista em qualquer tipo de reparação e restauro automóvel, desde clássicos a viaturas recentemente lançadas."
 
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "O que esperar da Gifermo? Deixe-nos começar por dizer que já nos encontramos no mercado há bastantes anos, tantos anos esses, que nos qualificam a 100% de modo a saber o que os nossos clientes necessitam e procuram. Tendo isto em mente isto oferecemos o melhor serviço auto do país, mas mais concretamente, o que oferecemos?",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            "Mecânica geral",
+            "Reparação de Motores",
+            "Reparação de Caixa de Velocidades (Manual e Automática)",
+            "Reprogramação de Centralinas"
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Eletricidade / Eletrónica",
+            "Carregamento de AC",
+            "Testes diagnósticos",
+            "Polimento de faróis"
+            
         ]
     },
     "Services": [{
-            "icon": "fa fa-wordpress",
+            "icon": "fas fa-hammer",
             "name": "Lorem ipsum dolor",
             "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
         },
@@ -105,32 +106,27 @@
         }
     ],
     "Contact": {
-        "address": "4321 California St, San Francisco, CA 12345 ",
-        "phone": "+1 123 456 1234",
-        "email": "info@company.com",
-        "facebook": "fb.com",
-        "twitter": "twitter.com",
-        "youtube": "youtube.com"
+        "address": "Rua Particular, Parque Gifermo, Cabra-Figa, 2635-132, Rio de Mouro ",
+        "phone": "(+351) 963093702  /  219258363",
+        "email": "geral@gifermo.com",
+        "facebook": "https://www.facebook.com/profile.php?id=100057503949065",
+        "instagram": "https://www.instagram.com/gifermo/?hl=en"
     },
     "Features": [{
             "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Reparação e manutenção"
         },
         {
             "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Bate-chapa e Pintura"
         },
         {
             "icon": "fa fa-group",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Restauro de clássicos"
         },
         {
             "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
-            "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+            "title": "Serviços rápidos"
         }
     ]
 }

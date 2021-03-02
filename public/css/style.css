@@ -2,7 +2,7 @@ body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #777;
+	color: #252525;
 	font-weight: 400;
 	width: 100% !important;
 	height: 100% !important;
@@ -15,16 +15,16 @@ h2 {
 	margin: 0 0 20px 0;
 	font-weight: 800;
 	font-size: 36px;
-	color: #333;
+	color: #fff;
 }
 h3 {
 	font-size: 20px;
 	font-weight: 600;
-	color: #333;
+	color: #ddd;
 }
 h4 {
 	font-size: 18px;
-	color: #333;
+	color: #fff;
 	font-weight: 600;
 }
 h5 {
@@ -34,18 +34,19 @@ h5 {
 }
 p {
 	font-size: 15px;
+	color: #fff;
 }
 p.intro {
 	margin: 12px 0 0;
 	line-height: 24px;
 }
 a {
-	color: #608dfd;
+	color: #ff0000;
 	font-weight: 400;
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #608dfd;
+	color: #ff0000;
 }
 ul, ol {
 	list-style: none;
@@ -60,34 +61,37 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #1E7A46;
+	background: #ff0000;
 	margin-bottom: 20px;
 	border: 0;
 }
 /* Navigation */
 #menu {
-	padding: 15px;
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #fff;
+	background-color: #252525;
 	border-color: rgba(231, 231, 231, 0);
 	box-shadow: 0 0 10px rgba(0,0,0,0.15)
 }
-#menu a.navbar-brand {
+#menu a.navbar-brand h2{
 	font-family: 'Raleway', sans-serif;
-	font-size: 24px;
+	font-size: 30px;
 	font-weight: 700;
-	color: #333;
+	margin-top: 1vh;
+	color: #fff;
 	text-transform: uppercase;
 }
+
+
+
 #menu.navbar-default .navbar-nav > li > a {
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-	color: #555;
+	color: #e3e3e3;
 	font-size: 15px;
 	font-weight: 400;
-	padding: 8px 2px;
+	padding: 20px 2px;
 	border-radius: 0;
 	margin: 9px 20px 0 20px;
 }
@@ -98,7 +102,7 @@ hr {
 	bottom: -1px;
 	width: 0;
 	height: 2px;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #ff0000 0%, #ff0000 100%);
 	content: "";
 	transition: width 0.2s;
 }
@@ -115,7 +119,7 @@ hr {
 	bottom: -1px !important;
 	width: 100% !important;
 	height: 2px !important;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+	background: linear-gradient(to right, #ff0000 0%, #ff0000 100%) !important;
 	content: "" !important;
 	transition: width 0.2s !important;
 }
@@ -123,11 +127,11 @@ hr {
 	border-radius: 0;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color: #fff;
-	border-color: #608dfd;
+	background-color: #252525;
+	border-color: #ff0000;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #608dfd;
+	background-color: #ff0000;
 }
 .section-title {
 	margin-bottom: 70px;
@@ -141,7 +145,7 @@ hr {
 .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, #ff4e4e 0%, #ff0000 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -155,8 +159,8 @@ hr {
 	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #5ca9fb;
-	background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background-color: #ff0000;
+	background-image: linear-gradient(to right, #ff4e4e 0%, #ff0000 100%);
 	padding: 14px 34px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -169,7 +173,7 @@ hr {
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
 	background-image: none;
-	background-color: #6372ff;
+	background-color: #ff0000;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -207,7 +211,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro h1 span {
 	font-weight: 800;
-	color: #5ca9fb;
+	color: #ff0000;
 }
 .intro p {
 	color: #fff;
@@ -225,7 +229,7 @@ header .intro-text {
 /* Features Section */
 #features {
 	padding: 100px 0;
-	background: #f6f6f6;
+	background: #252525;
 }
 #features i.fa {
 	font-size: 38px;
@@ -239,9 +243,12 @@ header .intro-text {
 	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
 	box-shadow: 10px 10px 10px rgba(0,0,0,.05);
 }
+
+
 /* About Section */
 #about {
 	padding: 100px 0;
+	background-color: #252525;
 }
 #about h3 {
 	font-size: 22px;
@@ -255,7 +262,7 @@ header .intro-text {
 #about h2::after {
 	position: absolute;
 	content: "";
-	background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+	background: linear-gradient(to right, #ff4e4e 0%, #ff0000 100%);
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -266,11 +273,12 @@ header .intro-text {
 	margin-left: 6px;
 	list-style: none;
 	padding: 0;
+	color: #fff;
 }
 #about .about-text li:before {
 	content: '\f00c';
 	font-family: 'FontAwesome';
-	color: #5ca9fb;
+	color: #ff0000;
 	font-size: 11px;
 	font-weight: 300;
 	padding-right: 8px;
@@ -289,8 +297,8 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 100px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-	color: #fff;
+	background: linear-gradient(to right, #252525 0%, #252525 100%);
+	color: #252525;
 }
 #services .service-desc {
 	margin: 10px 10px 20px;
@@ -301,7 +309,7 @@ header .intro-text {
 #services .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: rgba(255,255,255,.3);
+	background: #ff0000;
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -332,6 +340,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
 	padding: 100px 0;
+	background-color: #252525;
 }
 .portfolio-item {
 	margin: 1px -15px 0 -14px;
@@ -347,7 +356,7 @@ header .intro-text {
 	text-align: center;
 	margin: 0 auto;
 	color: #fff;
-	background: linear-gradient(to right, rgba(99,114,255,0.8) 0%, rgba(92,169,251,0.8) 100%);
+	background: linear-gradient(to right, #ff4e4e 0%, #ff0000 100%);
 	padding: 30% 0 0 0;
 	height: 100%;
 	width: 100%;
@@ -434,7 +443,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+	background: linear-gradient(to right, #ff4e4e 0%, #ff4e4e 100%);
 	color: rgba(255,255,255,.75);
 }
 #contact .section-title {
@@ -452,7 +461,7 @@ header .intro-text {
 #contact .section-title h2::after {
 	position: absolute;
 	content: "";
-	background: rgba(255,255,255,.3);
+	background: #fff;
 	height: 4px;
 	width: 60px;
 	bottom: 0;
@@ -559,15 +568,15 @@ color: #777;
 }
 /* Footer Section*/
 #footer {
-	background: #f6f6f6;
+	background: #ff4e4e;
 	padding: 30px 0;
 }
 #footer p {
-	color: #888;
+	color: #fff;
 	font-size: 14px;
 }
 #footer a {
-	color: #608dfd;
+	color: #d3d3d3;
 }
 #footer a:hover {
 	border-bottom: 2px solid #608dfd;
@@ -577,4 +586,63 @@ color: #777;
 #about img {
 	margin: 50px 0;
 }
+
+#menu a.navbar-brand h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 2vh;
+	color: #ffffff;
+	text-transform: uppercase;
 }
+}
+
+@media (max-width: 960px) {
+	#menu a.navbar-brand h2{
+		font-family: 'Raleway', sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 2vh;
+		color: #ffffff;
+		text-transform: uppercase;
+	}
+	#menu.navbar-default .navbar-nav > li > a {
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		color: #e3e3e3;
+		font-size: 12px;
+		font-weight: 400;
+		margin-bottom: 20px;
+		padding: 20px 2px;
+		border-radius: 0;
+		margin: 9px 20px 0 20px;
+	}
+}
+
+@media (max-width: 1200px) {
+	#menu a.navbar-brand h2{
+		font-family: 'Raleway', sans-serif;
+		font-size: 30px;
+		font-weight: 700;
+		margin-bottom: 2vh;
+		color: #ffffff;
+		text-transform: uppercase;
+	}
+	#menu.navbar-default .navbar-nav > li > a {
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		color: #e3e3e3;
+		font-size: 12px;
+		font-weight: 400;
+		margin-bottom: 20px;
+		padding: 20px 2px;
+		border-radius: 0;
+		margin: 9px 20px 0 20px;
+	}
+}
+
+
+
+
+
+
